@@ -1,4 +1,4 @@
-- SpringCloud工程的demo工程
+- SpringCloud Demo工程
 - SpringCloud版本2020.0.0
 - maven版本3.6.3
 - maven镜像阿里云镜像
