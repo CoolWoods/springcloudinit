@@ -1,0 +1,8 @@
+server:
+  port: 20001 #eureka运行的端口号
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka #注册中心地址，其它服务需要注册到该地址
+    register-with-eureka: false #是否加入eureka注册表
+    fetch-registry: false #还是向eureka请求注册信息表
